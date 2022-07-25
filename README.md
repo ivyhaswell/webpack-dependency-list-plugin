@@ -19,7 +19,7 @@ yarn add -D webpack-dependency-list-plugin
 <h2 align="center">Usage (as a plugin)</h2>
 
 ```js
-const WebpackDependencyListPlugin = require('webpack-dependency-list-plugin');
+const WebpackDependencyListPlugin = require('webpack-dependency-list-plugin').default;
 
 module.exports = {
   plugins: [
